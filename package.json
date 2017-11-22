@@ -8,7 +8,7 @@
   "scripts": {
     "build": "the-script-build",
     "doc": "the-script-jsdoc",
-    "prepare": "the-script-build && the-script-jsdoc",
+    "prepare": "the-script-build",
     "release": "the-script-release -y",
     "share": "the-script-share",
     "test": "mocha",
