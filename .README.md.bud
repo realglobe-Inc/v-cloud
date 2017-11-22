@@ -6,8 +6,6 @@
 
 const {readmeMdBud} = require('ape-tmpl')
 const pkg = require('./package.json')
-const {signature} = require('the-script-jsdoc')
-const jsdoc = require('./jsdoc.json')
 
 module.exports = readmeMdBud({
   pkg,
@@ -20,20 +18,7 @@ module.exports = readmeMdBud({
   },
   overview: 'doc/overview.md',
   links: require('./doc/links'),
-  vars: {
-    signature: signature(
-      jsdoc,
-      {
-        classNames: [
-          'VCloud'
-        ],
-        functionNames: [
-          'create'
-        ]
-      }
-    ),
-    apiPath: './doc/api/api.md'
-  }
+  vars: {}
 })
 
 if (!module.parent) {
