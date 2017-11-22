@@ -114,8 +114,10 @@ This software is released under the [MIT License](https://github.com/realglobe-I
 Links
 ------
 
-+ [THE Labo][t_h_e_labo_url]
++ [v][v_url]
++ [Realglobe, Inc.][realglobe,_inc__url]
 
-[t_h_e_labo_url]: https://github.com/the-labo
+[v_url]: https://github.com/realglobe-Inc/v
+[realglobe,_inc__url]: http://realglobe.jp
 
 <!-- Links End -->
