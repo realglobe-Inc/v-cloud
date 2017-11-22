@@ -22,14 +22,17 @@ describe('v-cloud', () => {
 
     const client01 = vSpotWS.client()
     const client02 = vSpotWS.client()
+
     client01.load({
       hi: (msg) => `hi, ${msg}`
     }, 'jp.v-cloud.test.bess')
 
     await vCloud.listen(port)
 
-    await client01.connect(`http://localhost:${port}`)
-    await client02.connect(`http://localhost:${port}`)
+    // const cloudURL = `http://localhost:${port}`
+    const cloudURL = 'ws://v.realglobe.work'
+    await client01.connect(cloudURL)
+    await client02.connect(cloudURL)
 
     const bess = await client02.use('jp.v-cloud.test.bess')
     equal(
