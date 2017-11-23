@@ -30,12 +30,16 @@
   },
   "homepage": "https://github.com/realglobe-Inc/v-cloud#readme",
   "dependencies": {
+    "amkdirp": "^2.0.0",
+    "mkdirp": "^0.5.1",
+    "path": "^0.12.7",
     "pon": "^5.1.3",
     "pon-task-basic": "^3.1.8",
     "pon-task-env": "^1.3.2",
     "pon-task-pm2": "^2.1.5",
     "the-seat": "^1.4.1",
-    "v-spot-ws": "^1.0.6"
+    "v-spot-ws": "^1.0.7",
+    "winston": "^3.0.0-rc1"
   },
   "devDependencies": {
     "aport": "^2.0.0",
