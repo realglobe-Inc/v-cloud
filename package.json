@@ -1,6 +1,6 @@
 {
   "name": "v-cloud",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cloud site for v",
   "main": "lib",
   "private": true,
