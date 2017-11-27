@@ -19,6 +19,8 @@ describe('v-cloud', function () {
   })
 
   it('Do test', async () => {
+
+
     const port = await aport()
     const vCloud = new VCloud()
 
@@ -31,8 +33,8 @@ describe('v-cloud', function () {
 
     await vCloud.listen(port)
 
-    // const cloudURL = `http://localhost:${port}`
-    const cloudURL = 'https://v.realglobe.work'
+    const cloudURL = `http://localhost:${port}`
+    // const cloudURL = 'https://v.realglobe.work'
     await client01.connect(cloudURL)
     await client02.connect(cloudURL)
     try {
