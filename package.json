@@ -38,7 +38,7 @@
     "pon-task-env": "^1.3.2",
     "pon-task-pm2": "^2.1.5",
     "the-seat": "^1.4.1",
-    "v-spot-ws": "^1.1.1",
+    "v-spot-ws": "^1.1.2",
     "winston": "^3.0.0-rc1"
   },
   "devDependencies": {
