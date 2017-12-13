@@ -3,8 +3,6 @@
   "version": "1.0.1",
   "description": "Cloud site for v",
   "main": "lib",
-  "private": true,
-  "browser": "shim",
   "scripts": {
     "build": "the-script-build",
     "doc": "the-script-jsdoc",
